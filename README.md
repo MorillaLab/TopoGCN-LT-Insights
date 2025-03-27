@@ -1,6 +1,6 @@
 # TopoGCN-LT-Insights
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/license/mit/)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/MorillaLab/TopoTransformers/)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/MorillaLab/TopoGCN-LT-Insights/tree/main/Graphical_learning/)
 
 
 # TDA-aided Graph Convolutional Networks for improved lung transplantation insights.
