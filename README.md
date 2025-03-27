@@ -1,5 +1,5 @@
 # TopoGCN-LT-Insights
-[![License](https://iimg.shields.io/badge/License-MIT-green)](https://opensource.org/license/mit/)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/license/mit/)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/MorillaLab/TopoTransformers/)
 
 
