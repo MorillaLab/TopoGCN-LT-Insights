@@ -9,3 +9,24 @@ The Lung Transplant Prediction Dataset is a comprehensive collection of medical 
 This dataset serves as a valuable resource for constructing machine learning models aimed at predicting the one-year mortality risk following a lung transplant. Leveraging patients' medical histories and demographic details, these models empower healthcare professionals to identify individuals with an elevated risk of requiring a lung transplant, facilitating the development of tailored treatment plans.
 
 Beyond clinical applications, researchers can utilize this dataset to investigate intricate relationships between diverse medical and demographic factors and the probability of undergoing a lung transplant. The insights gleaned from such analyses can contribute to a deeper understanding of the complex interplay between health indicators and the likelihood of lung transplantation.
+
+flowchart TD
+    %% Fig1a - Encoding
+    A[FASTA Input] --> B[DNA-BERT]
+    B --> C[Per-AA Embeddings\n768D, LayerNorm]
+    C --> D[RL Agent]
+    D --> E[Optimal 768D Rep]
+    
+    %% Fig1b - Topology
+    E --> F[Persistent Homology\nH₀,H₁,H₂]
+    F --> G[Wasserstein Metric\np=2]
+    
+    %% Fig1c - CNN
+    E --> H[Image Reshape]
+    H --> I[LeNet-5]
+    I --> J[Cross-Entropy Loss]
+    
+    %% Backprop
+    J -->|∂ℒ/∂W| I
+    J -->|Approx. ∂ℒ/∂H₁| F
+    J -->|REINFORCE| D
