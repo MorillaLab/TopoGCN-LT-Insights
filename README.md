@@ -10,7 +10,7 @@ This dataset serves as a valuable resource for constructing machine learning mod
 
 Beyond clinical applications, researchers can utilize this dataset to investigate intricate relationships between diverse medical and demographic factors and the probability of undergoing a lung transplant. The insights gleaned from such analyses can contribute to a deeper understanding of the complex interplay between health indicators and the likelihood of lung transplantation.
 
-flowchart TD
+
     %% Fig1a - Encoding
     A[FASTA Input] --> B[DNA-BERT]
     B --> C[Per-AA Embeddings\n768D, LayerNorm]
